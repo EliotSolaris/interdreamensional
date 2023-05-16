@@ -1,0 +1,159 @@
+@import url(variables.css);
+@import url(navbar.css);
+@import url(buttons.css);
+@import url(styleCOMMS.css);
+@import url(gallery.css);
+@import url(contactAndSocialMedia.css);
+
+/*HTML ELEMNETS*/
+* {
+  box-sizing: border-box;
+}
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg-color);
+  text-align: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: var(--off-white);
+}
+
+div {
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 100vw;
+  height: 100%;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+h1,
+h2,
+h3,
+ul {
+  color: var(--primary-color);
+}
+
+.row-terms ul {
+  color: var(--off-white);
+ line-height: 2;
+padding: 0;
+}
+h1 {
+  font-family: Caveat;
+  font-size: 3em;
+  margin: 10px auto;
+  padding-left: 1%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+p {
+  line-height: 2;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.row {
+  margin-top: 100px;
+  width: 70%;
+  margin: 100px auto;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px ;
+  padding: 50px;
+  display:flexbox;
+}
+.row a {
+  color: var(--off-white);
+  text-decoration: none;
+}
+
+.row-intro {
+  width: 90%;
+  border: 0px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-terms{
+  background-color: var(--main-bg-color);
+  
+}
+.profile-picture {
+  height: 300px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+
+}
+.row-webcomic,
+.row-personal-art,
+.row-headshot,
+.row-fullbody {
+  /* text-align: left; */
+  border-right: 0;
+  margin-right: 0;
+}
+
+.row-fashion,
+.row-commissions,
+.row-halfbody {
+  /* text-align: right; */
+  border-left: 0;
+  margin-left: 0;
+  border-radius: 0 10px 10px 0;
+}
+
+.cover-right {
+  width: 300px;
+  float: right;
+  margin-left: 50px;
+}
+.cover-left {
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+.description-right,
+.description-left {
+  margin: 10px 5px;
+}
+
+
+/* ----- FOOTER ----- */
+.copyright {
+  color: var(--off-white);
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+

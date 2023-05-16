@@ -1,0 +1,34 @@
+
+/*BUTTONS*/
+.btn {
+    align-items: center;
+    width: 200px; 
+    padding: 10px 20px 10px 20px;
+    background-color: var(--main-bg-color);
+    border-radius: 8px;
+    border: 2px solid var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px auto;
+}
+.btn a{
+    color: var(--off-white);
+    text-decoration: none;
+}
+
+.webtoon:hover {
+    box-shadow: 3px 3px 3px 1px #00ff0098; 
+
+  }
+
+.tapas:hover {
+    box-shadow: 3px 3px 3px 1px #f6b60682;
+
+  }
+.mail-me:hover {
+
+  box-shadow: 3px 3px 3px 1px var(--hover-shadow);
+
+}
+ 
