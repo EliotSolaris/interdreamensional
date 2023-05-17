@@ -30,6 +30,10 @@
   z-index: 1;
 }
 
+.slide-container .sm-links {
+margin: 50px;
+}
+
 .slide-container:hover {
   left: 75%;
   width: 25%;
