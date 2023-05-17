@@ -1,6 +1,10 @@
 # interdreamensional
 My art portfolio. 
-## Used:
+# Used:
  + HTML
  + CSS
  + JS
+
+# in progress:
+ + Responsive design
+ + 
