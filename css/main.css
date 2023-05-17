@@ -1,13 +1,16 @@
 @import url(variables.css);
 @import url(navbar.css);
 @import url(buttons.css);
-@import url(styleCOMMS.css);
+@import url(commissionsPage.css);
 @import url(gallery.css);
-@import url(contactAndSocialMedia.css);
+@import url(socialMediaBar.css);
+@import url(gallery.css);
 
 /*HTML ELEMNETS*/
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 html {
   width: 100vw;
@@ -18,11 +21,8 @@ body {
   display: flex;
   flex-direction: column;
   line-height: 1;
-  margin: 0;
-  padding: 0;
   background-color: var(--main-bg-color);
   text-align: center;
-  align-items: center;
   font-family: "Montserrat", sans-serif;
   color: var(--off-white);
 }
@@ -31,15 +31,10 @@ div {
   overflow: hidden;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 main {
   width: 100vw;
   height: 100%;
+  margin-top: 100px;
 }
 footer {
   display: flex;
@@ -59,11 +54,10 @@ ul {
  line-height: 2;
 padding: 0;
 }
+
 h1 {
   font-family: Caveat;
-  font-size: 3em;
-  margin: 10px auto;
-  padding-left: 1%;
+  font-size: 50px;
 }
 
 h2 {
@@ -83,13 +77,11 @@ ul {
 }
 
 .row {
-  margin-top: 100px;
   width: 70%;
   margin: 100px auto;
   border: 2px solid var(--primary-color);
   border-radius: 10px ;
   padding: 50px;
-  display:flexbox;
 }
 .row a {
   color: var(--off-white);
@@ -98,8 +90,6 @@ ul {
 
 .row-intro {
   width: 90%;
-  border: 0px;
-  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   align-items: center;

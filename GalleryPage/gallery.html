@@ -1,105 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <title>Interdreamesnional</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/d1d8973566.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- STYLES SHEETS -->
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- FAVICON -->
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <title>Interdreamesnional</title>
-  <!-- GOOGLE FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&family=Vollkorn&display=swap"
-    rel="stylesheet">
-  <!-- FONT AWESOME -->
-  <script src="https://kit.fontawesome.com/d1d8973566.js" crossorigin="anonymous"></script>
-  <!-- STYLES SHEETS -->
-  <link rel="stylesheet" href="../css/main.css">
-
-</head>
-
-<body>
+  <body>
     <header>
-
       <nav class="navbar">
-        <h1 class="navbar--title"><a class="navbar--links-element" href="../index.html">Interdreamensional</a> </h1>
-        <ul class="navbar--links">
-          <li><a class="navbar--links-element" href="../webcomics/webcomic.html">Webcomic</a> </li>
-          <li><a class="navbar--links-element" href="GalleryPage/gallery.html">Gallery</a> </li>
-          <li><a class="navbar--links-element" href="../CommsInfo/Commissions.html">Commissions</a> </li>
-          <li><a class="navbar--links-element" href="#contact">Contact</a> </li>
+        <h1 class="navbar--title">
+          <a class="navbar--links-element" href="index.html"
+            >Interdreamensional</a
+          >
+        </h1>
+        <div class="navbar--hamburger">
+          <button class="navbar--hamburger-btn"></button>
+          <nav class="navbar--sidebar">
+            <ul class="navbar--links-hamburger">
+              <li>
+                <a class="navbar--links-element" href="webcomics/webcomic.html"
+                  >Webcomic</a
+                >
+              </li>
+              <li>
+                <a class="navbar--links-element" href="GalleryPage/gallery.html"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  class="navbar--links-element"
+                  href="CommsInfo/Commissions.html"
+                  >Commissions</a
+                >
+              </li>
+              <li>
+                <a class="navbar--links-element" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="navbar--links" id="navbar-main">
+          <li>
+            <a class="navbar--links-element" href="/webcomics/webcomic.html"
+              >Webcomic</a
+            >
+          </li>
+          <li>
+            <a class="navbar--links-element" href="/GalleryPage/gallery.html"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a class="navbar--links-element" href="/CommsInfo/Commissions.html"
+              >Commissions</a
+            >
+          </li>
+          <li><a class="navbar--links-element" href="#contact">Contact</a></li>
         </ul>
       </nav>
-</header>
+    </header>
 
-<main>
-  <div class="slide-container">
-    <ul class="sm-links">
-      <li class="sm-top-element">
-        <a class="sm-link" href="https://www.instagram.com/interdreamensional/" target="_blank">
-          <i class="fa-brands fa-instagram fa-2xl"></i></a>
-      </li>
-      <li class="sm-top-element">
-        <a class="sm-link" href="https://twitter.com/i_dreamensional" target="_blank">
-          <i class="fa-brands fa-twitter fa-2xl"></i></a>
-      </li>
-      <li class="sm-top-element">
-        <a class="sm-link" href="https://www.tumblr.com/interdreamensional" target="_blank">
-          <i class="fa-brands fa-tumblr fa-2xl"></i></a>
-      </li>
-    </ul>
-  </div>
-
-
-<div class="row-gallery">
-  <div class="row">
-  <p>Tool: iPad (7th generation) <br>
-    Software: Procreate <br>
-    These works were made for my personal projects and webcomic.</p>
-  </div>
-  <ul class="gallery">
-    <li class="gallery--thumbnail"><img src="../images/Personal gallery/Juniper Tempest concept.jpg" alt=""></li>
-    <li class="gallery--thumbnail"><img src="../images/Personal gallery/Flyyyyy.jpg" alt=""></li>
-    <li class="gallery--thumbnail"><img src="../images/Personal gallery/Necrodreamer.jpg" alt=""></li>
-    <li class="gallery--thumbnail"><img src="../images/Personal gallery/New_Morning.jpg" alt=""></li>
-    <li class="gallery--thumbnail"><img src="../images/Personal gallery/Star_Charmer_Aevy 2023.jpg" alt=""></li>
-    <li class="gallery--thumbnail"><img src="../images/Personal gallery/Sun_Sorcerer.jpg" alt=""></li>
-    
-  </ul>
-</div>
-
-<div class="popup hidden">
-  <button aria-label="Close Pop Up" class="popupClose">X</button>
-  <img src="" alt="" class="popup-img">
-  <button  aria-label="Next Image" class="popup-arrow popup-arrow-right"> > </button>
-  <button aria-label="Previous Image" class="popup-arrow popup-arrow-left"> < </button>
-</div>
-  </main>
-  
-  <footer>
-    <div class="contact-box" id="contact">
-
-          <img class="conpic" src="../images/Webtoon_St_Sobs.jpg"
-            alt="drawing in black and white, showing two hands reaching toward each other">
-          <p class="contact-message">Contact me</p>
-         <button class="btn mail-me"><a href="mailto:interdreamensional@gmail.com">Mail box</a></button>
-      <span class="sm-footer">
-          <a class="sm-link-footer" href="https://www.instagram.com/interdreamensional/" target="_blank">
-            <i class="fa-brands fa-instagram fa-2xl"></i></a>
-          <a class="sm-link-footer" href="https://twitter.com/i_dreamensional" target="_blank">
-            <i class="fa-brands fa-twitter fa-2xl"></i></a>
-          <a class="sm-link-footer" href="https://www.tumblr.com/interdreamensional" target="_blank">
-            <i class="fa-brands fa-tumblr fa-2xl"></i></a>
-      
-   </span>
+    <main>
+      <div class="slide-container">
+        <ul class="sm-links">
+          <li class="sm-top-element">
+            <a
+              class="sm-link"
+              href="https://www.instagram.com/interdreamensional/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram fa-2xl"></i
+            ></a>
+          </li>
+          <li class="sm-top-element">
+            <a
+              class="sm-link"
+              href="https://twitter.com/i_dreamensional"
+              target="_blank"
+            >
+              <i class="fa-brands fa-twitter fa-2xl"></i
+            ></a>
+          </li>
+          <li class="sm-top-element">
+            <a
+              class="sm-link"
+              href="https://www.tumblr.com/interdreamensional"
+              target="_blank"
+            >
+              <i class="fa-brands fa-tumblr fa-2xl"></i
+            ></a>
+          </li>
+        </ul>
       </div>
 
-    <p class="copyright">©2023 by Interdreamensional </p>
+      <div class="row row--gallery" id="wayfarers">
+        <img
+          class="thumbnail"
+          src="/images/Personal gallery/Flyyyyy.jpg"
+          alt=""
+        />
+        <img
+          class="thumbnail"
+          src="/images/Personal gallery/Necrodreamer.jpg"
+          alt=""
+        />
+        <img
+          class="thumbnail"
+          src="/images/Personal gallery/Star_Charmer_Aevy 2023.jpg"
+          alt=""
+        />
+        <img
+          class="thumbnail"
+          src="/images/Personal gallery/Sun_Sorcerer.jpg"
+          alt=""
+        />
+      </div>
 
-  </footer>
-  <script src="../index.js"></script>
-</body>
+      <div class="popup hidden">
+        <button aria-label="Close Pop Up" class="popupClose">X</button>
+        <img src="" alt="" class="popup-img">
+        <button  aria-label="Next Image" class="popup-arrow popup-arrow-right"> > </button>
+        <button aria-label="Previous Image" class="popup-arrow popup-arrow-left"> < </button>
+      </div>
+    </main>
+    <footer>
+      <div class="contact-box" id="contact">
+        <img
+          class="conpic"
+          src="../images/Webtoon_St_Sobs.jpg"
+          alt="drawing in black and white, showing two hands reaching toward each other"
+        />
+        <p class="contact-message">Contact me</p>
+        <button class="btn mail-me">
+          <a href="mailto:interdreamensional@gmail.com">Mail box</a>
+        </button>
+        <span class="sm-footer">
+          <a
+            class="sm-link-footer"
+            href="https://www.instagram.com/interdreamensional/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram fa-2xl"></i
+          ></a>
+          <a
+            class="sm-link-footer"
+            href="https://twitter.com/i_dreamensional"
+            target="_blank"
+          >
+            <i class="fa-brands fa-twitter fa-2xl"></i
+          ></a>
+          <a
+            class="sm-link-footer"
+            href="https://www.tumblr.com/interdreamensional"
+            target="_blank"
+          >
+            <i class="fa-brands fa-tumblr fa-2xl"></i
+          ></a>
+        </span>
+      </div>
 
+      <p class="copyright">©2023 by Interdreamensional</p>
+    </footer>
+
+    <script src="/JS/gallery.js"></script>
+    <script src="/JS/index.js"></script>
+  </body>
 </html>
