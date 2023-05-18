@@ -41,6 +41,9 @@ thumbnails.forEach((thumbnail, index) => {
      popup.classList.remove('hidden')
         popupImg.src = e.target.src
         currentImageIndex = index
+       thumbnails.forEach((element) => {
+            element.setAttribute("tabindex", -1);
+        });
     }  
     
     thumbnail.addEventListener('click', showPopUp)

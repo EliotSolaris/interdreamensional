@@ -6,8 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* animation-name:opacity;
-    animation-duration:5s; */
+   top: 0;
 }
 /*   
   @keyframes opacity{
